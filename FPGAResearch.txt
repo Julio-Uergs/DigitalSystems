@@ -1,0 +1,15 @@
+Um FPGA é composto por diversos blocos de controle configuraveis, podendo ser estes, blocos de entrada e saída, blocos lógica ou até mesmo switches básicas. Blocos de controle configuraveis são compostos por LUTs ou (Look up Tables), FFs tipo D e um MUX 2:1. LUTs são memórias que armazenam uma tabela verdade, e são utilizadas juntamente com operações lógicas.
+
+Além disso, FPGAs são geralmente arranjados em uma matriz bidimensional e a maior diferença entre um FPGA e outros microprocessadores é que os Field Programmable Gate Arrays são reprogramáveis.
+
+Essencialmente, existem 2 tipos gerais de pinos, sendo eles dedicados ou de uso por usuário. Os pinos dedicados são divididos em 3, sendo eles de energia, configuração e clock. Já os do usuário são divididos entre exclusivamente para entrada, exclusivamente para saída e para entrada ou saída.
+
+Os FPGAs são geralmente planejados para tarefas síncronas, onde um sinal de clock deve ativar todos os FFs ao mesmo tempo, e para resolver qualquer problema de falta de sincronia, foi desenvolvido uma conexão interna especial chamada de global routing. O objetivo primário da global routing é garantir que todos os sinais cheguem ao mesmo tempo.
+
+    FPGAs foram feitos para aplicações de performance intensiva, enquanto outros microprocessadores são melhores para aplicações de controle de rotina.
+
+    Fonte:
+        https://www.xilinx.com/products/silicon-devices/resources/programming-an-fpga-an-introduction-to-how-it-works.html
+
+        https://www.researchgate.net/publication/321748886_A_FPGA_Project_with_MYRIO#pf1
+
